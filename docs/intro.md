@@ -1,47 +1,64 @@
 ---
-sidebar_position: 1
+title: 文件介紹及說明
+sidebar_position: 0
 ---
 
-# Tutorial Intro
+# 文件介紹及說明
 
-Let's discover **Docusaurus in less than 5 minutes**.
+本操作文件說明前端網站操作說明，快速說明如何使用到基本功能。
 
-## Getting Started
+## 依照快速入門或網站功能操作說明
 
-Get started by **creating a new site**.
+快速入門介紹前端網站常用功能，提供簡易使用步驟，網站功能介紹則是提供更詳細的前端網站功能，有各自使用的流程。
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### 1. 選擇快速入門/網站功能介紹
 
-### What you'll need
+![側邊攔](img/frontend-intro-1.png)
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### 2. 展開子選單
 
-## Generate a new site
+點擊箭頭可展開/收合子選單，顯示平台內可設置的功能列表
 
-Generate a new Docusaurus site using the **classic template**.
+![側邊攔](img/frontend-intro-2.png)
 
-The classic template will automatically be added to your project after you run the command:
+點擊文字，除了展開功能列表，頁面會列出該平台功能清單
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+![側邊攔](img/frontend-intro-3.png)
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### 3. 選擇需要了解的操作
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+例如點選　"如何使用美容百科網站?＂
 
-## Start your site
+![側邊攔](img/frontend-intro-4.png)
 
-Run the development server:
+### 4. 閱讀操作說明
 
-```bash
-cd my-website
-npm run start
-```
+就可以看到如何使用美容百科網站的具體流程
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+![側邊攔](img/frontend-intro-5.png)
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+## 使用搜索功能
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+除了按照平台分類找功能外，在任何頁面都可以使用右上角搜尋功能直接輸入要搜索的內容。
+
+### 1. 使用搜尋功能
+
+![搜尋功能](img/frontend-intro-search-1.png)
+
+### 2. 輸入搜索文字
+
+輸入後會看看到下方選單出現即時搜索結果
+
+![搜尋功能](img/frontend-intro-search-2.png)
+
+### 3. 選取項目
+
+可直接從搜索結果的選單內用方向鍵/滑鼠選取
+
+![搜尋功能](img/frontend-intro-search-3.png)
+
+### 4. 檢視全部搜索結果
+
+點擊下方連結可跳至全部搜索結果
+
+![搜尋功能](img/frontend-intro-search-4.png)

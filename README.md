@@ -1,42 +1,23 @@
-# Website
+# 文件說明
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+本文件提供美容百科網站的入門指南，包括註冊、瀏覽文章和使用搜尋功能的基本步驟，與各類操作說明、注意事項
 
-### Installation
+## 連結說明
 
-```
-$ yarn
-```
+- [美容百科前端網站連結](https://beauty.kinglyrobot.com/)
+- [美容百科前端文件連結：GitHub Pages 版本](https://ben0588.github.io/kingly_beauty_wiki_frontend_doc/)
+- [美容百科前端文件連結：Vercel 版本](https://kingly-beauty-wiki-frontend-doc-gyrm-7xfyqfesz.vercel.app/)
 
-### Local Development
+## 使用技術
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
-# kingly_frontend_doc
+- next： ~14.2.2
+- react： ~18
+- tailwindcss： ^3.4.1
+- react-hook-form： ^7.51.4
+- swr： ^2.2.5
+- sweetalert2： ^11.12.2
+- swiper： ^11.1.1
+- eslint： ^8.57.0
+- jest： ^29.7.0
+- cypress： ^13.14.0
+- sonar-qube

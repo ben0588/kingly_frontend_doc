@@ -26,5 +26,9 @@
   "item.label.美容鏡": {
     "message": "美容镜",
     "description": "Navbar item with label 美容鏡"
+  },
+  "item.label.運動百科網站": {
+    "message": "运动百科網站",
+    "description": "Navbar item with label 運動百科網站"
   }
 }

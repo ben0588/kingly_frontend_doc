@@ -19,21 +19,21 @@
     "message": "美容百科网站",
     "description": "The label of footer link with label=美容百科網站 linking to https://beauty.kinglyrobot.com/"
   },
+  "link.item.label.運動百科網站": {
+    "message": "运动百科网站",
+    "description": "The label of footer link with label=運動百科網站 linking to https://sport.kinglyrobot.com/"
+  },
   "link.item.label.美容百科前端網站說明": {
     "message": "美容百科前端网站说明",
     "description": "The label of footer link with label=美容百科前端網站說明 linking to /docs/intro"
   },
-  "link.item.label.後台管理系統教學": {
-    "message": "后台管理系统教学",
-    "description": "The label of footer link with label=後台管理系統教學 linking to https://kingly-beauty-wiki-backend-doc.vercel.app/"
+  "link.item.label.後台管理系統教學 ( Vercel )": {
+    "message": "后台管理系统教学 ( Vercel )",
+    "description": "The label of footer link with label=後台管理系統教學 ( Vercel ) linking to https://kingly-backend-doc.vercel.app/"
   },
-  "link.item.label.backend-docs": {
-    "message": "backend-docs",
-    "description": "The label of footer link with label=backend-docs linking to https://kingly-beauty-wiki-backend-doc.vercel.app/"
-  },
-  "link.item.label.frontend-docs": {
-    "message": "frontend-docs",
-    "description": "The label of footer link with label=frontend-docs linking to /"
+  "link.item.label.後台管理系統教學 ( GitHub-Pages )": {
+    "message": "后台管理系统教学 ( GitHub-Pages )",
+    "description": "The label of footer link with label=後台管理系統教學 (  GitHub-Pages ) linking to https://mestochang.github.io/kingly_backend_doc/"
   },
   "copyright": {
     "message": "Copyright © 2024. 王道机器人股份有限公司",

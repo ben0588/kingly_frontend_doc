@@ -172,7 +172,7 @@ const config = {
                 to: "https://kingly-backend-doc.vercel.app/",
               },
               {
-                label: "後台管理系統教學 ( Github-pages )",
+                label: "後台管理系統教學 ( GitHub-Pages )",
                 to: "https://mestochang.github.io/kingly_backend_doc/",
               },
             ],

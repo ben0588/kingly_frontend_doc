@@ -17,10 +17,10 @@ const config = {
 
   // 設定當前連接 vercel 還是 github page 設定 start
   url: isVercel
-    ? "https://kingly-frontend-doc-gyrm.vercel.app/"
+    ? // ? "https://kingly-frontend-doc-gyrm.vercel.app/"
+      "https://kingly-frontend-doc.vercel.app/"
     : "https://kingly_frontend_doc.github.io",
   baseUrl: isVercel ? "/" : "/kingly_frontend_doc/",
-
   organizationName: "kingly",
   projectName: "kingly_frontend_doc",
   // 設定當前連接 vercel 還是 github page 設定 end
@@ -118,12 +118,18 @@ const config = {
             label: "美容鏡",
           },
           {
+            type: "docSidebar",
+            sidebarId: "sportWikiSidebar",
+            position: "left",
+            label: "運動百科網站",
+          },
+          {
             type: "localeDropdown",
             position: "right",
             className: "custom-locale-switcher",
           },
           {
-            href: "https://github.com/ben0588/kingly_beauty_wiki_frontend_doc",
+            href: "https://github.com/ben0588/kingly_frontend_doc",
             label: "GitHub",
             position: "right",
           },
@@ -148,6 +154,10 @@ const config = {
                 label: "美容百科網站",
                 to: "https://beauty.kinglyrobot.com/",
               },
+              {
+                label: "運動百科網站",
+                to: "https://sport.kinglyrobot.com/",
+              },
             ],
           },
           {
@@ -158,24 +168,28 @@ const config = {
                 to: "/docs/intro",
               },
               {
-                label: "後台管理系統教學",
-                to: "https://kingly-beauty-wiki-backend-doc.vercel.app/",
+                label: "後台管理系統教學 ( Vercel )",
+                to: "https://kingly-backend-doc.vercel.app/",
+              },
+              {
+                label: "後台管理系統教學 ( Github-pages )",
+                to: "https://mestochang.github.io/kingly_backend_doc/",
               },
             ],
           },
-          {
-            title: "Links",
-            items: [
-              {
-                label: "backend-docs",
-                to: "https://kingly-beauty-wiki-backend-doc.vercel.app/",
-              },
-              {
-                label: "frontend-docs",
-                to: "/",
-              },
-            ],
-          },
+          // {
+          //   title: "Links",
+          //   items: [
+          //     {
+          //       label: "backend-docs",
+          //       to: "https://kingly-backend-doc.vercel.app/",
+          //     },
+          //     {
+          //       label: "frontend-docs",
+          //       to: "/",
+          //     },
+          //   ],
+          // },
         ],
         copyright: `Copyright © ${new Date().getFullYear()}. 王道機器人股份有限公司`,
       },

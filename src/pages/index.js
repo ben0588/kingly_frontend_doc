@@ -15,7 +15,7 @@ function HomepageHeader() {
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          {siteConfig.title}
+          {currentLocale === "zh-Hans" ? "前端操作说明文件" : siteConfig.title}
         </Heading>
         <p>
           {currentLocale === "zh-Hans"
@@ -39,7 +39,7 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`入口頁面`}
+      title={`首頁`}
       description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />

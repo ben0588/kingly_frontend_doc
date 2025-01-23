@@ -11,21 +11,27 @@ const FeatureList = [
   },
   {
     title: "前往運動百科網站",
-    image: require("./img/meta_image_1200x600.jpg").default,
+    image:
+      "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     path: "https://sport.kinglyrobot.com/",
   },
   {
     title: "美容鏡",
-    image: require("./img/meta_image_1200x600.jpg").default,
+    image:
+      "https://images.unsplash.com/photo-1500840216050-6ffa99d75160?q=80&w=1497&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     path: "https://sport.kinglyrobot.com/",
   },
 ];
 
 function Feature({ image, title, path }) {
   return (
-    <div className={clsx("col col--8")}>
+    <div className={"col col--4"}>
       <div className="text--center">
-        <img src={image} className="w-100" />
+        <img
+          src={image}
+          style={{ height: "200px", width: `100%`, objectFit: "cover" }}
+          alt={title}
+        />
       </div>
       <div className="text--center padding-horiz--md pt-2">
         <Heading as="h3">
@@ -42,9 +48,9 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className={`row justify-content-center`}>
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+        <div className={`row`}>
+          {FeatureList.map((props, index) => (
+            <Feature key={index} {...props} />
           ))}
         </div>
       </div>

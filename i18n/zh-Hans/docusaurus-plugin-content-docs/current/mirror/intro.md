@@ -1,5 +1,5 @@
 ---
-title: 美容鏡說明
+title: 美容镜说明
 sidebar_position: 3
 ---
 

@@ -9,7 +9,7 @@ sidebar_position: 3
 
 ## 操作說明
 
-完成註冊與登入流程：依照註冊流程完成註冊。
+完成註冊與登入流程：依照[註冊流程](http://localhost:7000/kingly_frontend_doc/docs/mirror/member-features/register-new-account)完成註冊後，再進行[登入](http://localhost:7000/kingly_frontend_doc/docs/mirror/member-features/login-logout-process)。
 
 1. **替換個人頭像圖片**：點擊個人頭像旁「拍照取像」按鈕，拍攝一張照片作為個人頭像使用。
 2. **變更密碼**：點擊「變更密碼」按鈕，進入變更密碼頁。首先需驗證舊密碼，並確保新密碼與舊密碼不同且兩次輸入的新密碼相同。成功修改後，系統將強制登出，使用者需重新登入。

@@ -9,6 +9,8 @@ sidebar_position: 2
 
 ## 操作說明
 
+完成註冊與登入操作：依照[註冊流程](http://localhost:7000/kingly_frontend_doc/docs/mirror/member-features/register-new-account)完成註冊後，再進行[登入](http://localhost:7000/kingly_frontend_doc/docs/mirror/member-features/login-logout-process)。若為首次登入，系統將引導至會員專區頁面。
+
 1. **替換個人頭像圖片**：在會員專區頁面中，點擊個人頭像旁「拍照取像」按鈕，拍攝一張圖片作為個人頭像使用。
 2. **填寫個人資料**：在會員專區頁面中，點擊「更改會員資料」更新或填寫個人資料，包括姓名、暱稱、生日、身高、體重等資訊。
 3. **點擊「關閉圖示(X)」**：若不希望立即更新資料，點擊「關閉(X)」按鈕，系統將跳轉至首頁。

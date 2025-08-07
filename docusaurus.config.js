@@ -113,15 +113,21 @@ const config = {
           },
           {
             type: "docSidebar",
+            sidebarId: "sportWikiSidebar",
+            position: "left",
+            label: "運動百科網站",
+          },
+          {
+            type: "docSidebar",
             sidebarId: "mirrorTutorialSidebar",
             position: "left",
             label: "美容鏡",
           },
           {
             type: "docSidebar",
-            sidebarId: "sportWikiSidebar",
+            sidebarId: "nluSidebar",
             position: "left",
-            label: "運動百科網站",
+            label: "對話訓練平台",
           },
           {
             type: "localeDropdown",

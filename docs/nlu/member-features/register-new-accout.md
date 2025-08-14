@@ -14,3 +14,9 @@ sidebar_position: 0
 3. **提交註冊**：確認資料無誤後，點擊「註冊」按鈕。系統將提示帳號註冊成功，並自動發送驗證信至您填的信箱。
 4. **點擊驗證「mail」**：確認註冊成功後請至郵箱中點擊驗證連結，開通試用帳號。
 5. **重新登入帳戶**：驗證完成後，點擊下方「回登入頁」按鈕，在使用新的帳號密碼重新登入。
+   ![註冊按鈕](./img/register-new-accout-01.png)
+   ![註冊資料](./img/register-new-accout-02.png)
+   ![註冊成功](./img/register-new-accout-03.png)
+   ![驗證信箱](./img/register-new-accout-04.png)
+   ![驗證成功](./img/register-new-accout-05.png)
+   ![登入](./img/register-new-accout-06.png)

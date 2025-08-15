@@ -15,3 +15,9 @@ sidebar_position: 3
 4. **點擊信件「點我重設密碼」**：前往您的電子郵件收件夾(如：Google 信箱)，找到來自系統的重設密碼信件，並點擊信中的「點我重設密碼」鏈接，進入重設密碼頁面。
 5. **填寫新密碼**：新密碼需符合格式，並且兩次新密碼必須一致。
 6. **點擊「送出」**：確認兩次輸入的新密碼一致後，點擊「送出」按鈕完成重設。成功重設密碼後，系統將自動重導向登入頁面，使用者需再次登入。
+   ![忘記密碼](./img/forget-password-process-01.png)
+   ![會員資料](./img/forget-password-process-02.png)
+   ![帳號信箱確認成功](./img/forget-password-process-03.png)
+   ![信箱連結](./img/forget-password-process-04.png)
+   ![變更密碼](./img/forget-password-process-05.png)
+   ![變更密碼成功](./img/forget-password-process-06.png)

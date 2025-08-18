@@ -17,7 +17,7 @@ sidebar_position: 1
 4. **訓練**：當訓練燈亮起時，點選此按鈕即可進行意圖訓練。
 5. **Intent list**：可查看所有已建立 Intent 及其各自的語句數量。
 
-### 實體 Entity
+### 實體 Entity (開發中)
 
 1. **Entity 數量**：顯示目前已建立 Entity 數量。
 2. **Entity list**：查看各個 Entity 對應的語句數量。

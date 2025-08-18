@@ -16,6 +16,9 @@ sidebar_position: 0
    - APP 格式名稱：只能輸入英文、數字、下底線和小數點。
 3. **提交建立**：確認資訊無誤後，點選「Done」完成新增。
 
+![點擊+任務app](./img/dashboard-01.png)
+![填寫任務app資訊並提交](./img/dashboard-02.png)
+
 ### 查看已建立之任務APP數量
 
 - 可由頁面中左上角任務 APP 數量區塊查看。
@@ -29,6 +32,10 @@ sidebar_position: 0
 - **建立時間**：顯示該 APP 建立時間與日期。
 - **刪除 APP**：可透過此功能刪除 APP (刪除後不可復原，請謹慎操作)
 
+![任務app數量與清單](./img/dashboard-03.png)
+
 ### 任務 APP 管理介面
 
 - 點擊 APP 名稱即可進入該 APP 管理介面，進行相關管理與操作。
+
+![任務app管理頁面](./img/dashboard-04.png)

@@ -14,6 +14,9 @@ sidebar_position: 0
 - **更新 APP 資訊**：勾選「□ 更新按鈕」後，即可編輯 APP 的敘述內容。
 - **API 發布**：完成 APP 訓練後，可透過此功能進行發布，並取得 API URL 網址供後續串接使用。
 
+![更新app資訊](./img/app-management-01.png)
+![API發布](./img/app-management-02.png)
+
 ### BOT 整合
 
 - **Facebook ChatBot**：
@@ -29,6 +32,10 @@ sidebar_position: 0
 2. 啟用 LINE ChatBot 功能：回到本平台，勾選「□ 啟用 LINE ChatBot 功能」，即可啟用相關功能設定。
 3. 填寫 LINE 粉絲專頁「Accesas Token」、「Verify Token」：將 LINE 開發平台提供的「Access Token」、「Verify Token」填入對應欄位。設定完成後，即可開啟自動回覆聊天功能。
 4. 更新「Access Token」或「Verify Token」：勾選「□ 更新 Access Token」或「□ 更新 Verify Token」，即可更新相關資訊。
+
+![fb LINE bot](./img/app-management-03.png)
+![fb](./img/app-management-04.png)
+![LINE](./img/app-management-05.png)
 
 ### 統計數據
 

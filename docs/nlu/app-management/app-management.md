@@ -51,3 +51,8 @@ sidebar_position: 0
 
 - **被訪問意圖 TOP3**：顯示被使用者查詢次數最多的三個意圖。
 - **被訪意圖次數**：顯示所有已建立意圖被使用者查詢的次數。
+
+![統計數據頁面](./img/app-management-06.png)
+![進入 NONE 頁面](./img/app-management-07.png)
+![NONE 頁面](./img/app-management-09.png)
+![下載數據](./img/app-management-08.png)

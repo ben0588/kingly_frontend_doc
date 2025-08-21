@@ -17,6 +17,8 @@ sidebar_position: 1
 4. **訓練**：當訓練燈亮起時，點選此按鈕即可進行意圖訓練。
 5. **Intent list**：可查看所有已建立 Intent 及其各自的語句數量。
 
+![意圖](./img/build-01.png)
+
 ### 實體 Entity (開發中)
 
 1. **Entity 數量**：顯示目前已建立 Entity 數量。
@@ -31,3 +33,6 @@ sidebar_position: 1
   1. 建立檔案與工作表：開啟一個新的 Excel ，並建立兩個工作表，分別命名為「Synonyms (同義詞)」、「Sensitive (敏感詞)」。
   2. 新增同義詞：在 Synonyms (同義詞) 工作表中，將第一列設置為目標詞語。在每個目標詞下方依序輸入對應的同義詞。
   3. 敏感詞新增：在 Sensitive (敏感詞) 工作表中，逐一將敏感詞輸入至欄位中。
+
+![特殊詞](./img/build-02.png)
+![特殊詞excel](./img/build-05.png)

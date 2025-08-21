@@ -28,3 +28,16 @@ sidebar_position: 4
    - 點選左側導航列中的「APP 管理」→「資訊」。
    - 進入資訊頁面後，於「API 資訊」區塊右上角點選「發布」按鈕。
    - 發布成功後，系統將自動更新最新發布日期以及顯示最新 API URL 網址。
+
+![新增任務app](./img/creating-dialogue-01.png)
+![填寫任務app資訊](./img/creating-dialogue-02.png)
+![進入app管理介面](./img/creating-dialogue-03.png)
+![上傳訓練檔](./img/creating-dialogue-04.png)
+![訓練檔匯入中](./img/creating-dialogue-05.png)
+![訓練檔匯入成功](./img/creating-dialogue-06.png)
+![開始訓練](./img/creating-dialogue-07.png)
+![即時任務報告回應](./img/creating-dialogue-08.png)
+![訓練成功](./img/creating-dialogue-09.png)
+![API 發布](./img/creating-dialogue-10.png)
+![API 發布成功](./img/creating-dialogue-11.png)
+![API 資訊](./img/creating-dialogue-12.png)

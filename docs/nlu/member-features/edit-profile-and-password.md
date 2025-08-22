@@ -9,7 +9,7 @@ sidebar_position: 2
 
 ## 操作說明
 
-完成註冊與登入流程：依照註冊流程完成註冊後，再進行登入。
+完成註冊與登入流程：依照[註冊流程](http://localhost:7000/kingly_frontend_doc/docs/nlu/member-features/register-new-accout)完成註冊後，再進行[登入](http://localhost:7000/kingly_frontend_doc/docs/nlu/member-features/login-logout-process)。
 
 1. **替換個人頭像圖片**：點擊「上載圖片」按鈕，選擇一張照片作為個人頭像使用。圖片檔案限制：JPG 、 PNG ，不可超過 2 MB。
 2. **變更電子郵件**：在帳號內容欄中，更新或填寫電子郵件，確認無誤後點擊「儲存」按鈕進行更新。

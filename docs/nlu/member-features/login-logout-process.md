@@ -9,7 +9,7 @@ sidebar_position: 1
 
 ## 操作說明
 
-完成註冊流程：依照註冊流程完成註冊後，再進行登入。
+完成註冊流程：依照[註冊流程](http://localhost:7000/kingly_frontend_doc/docs/nlu/member-features/register-new-accout)完成註冊後，再進行登入。
 
 1. **點擊「登入」**：在首頁的右上方點擊「登入」按鈕，將跳轉至登入頁面。
 2. **填寫個人會員帳號與密碼**：在登入頁面上，輸入您有效的帳戶名稱與密碼。

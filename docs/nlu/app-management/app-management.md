@@ -30,12 +30,13 @@ sidebar_position: 0
 
 1. 申請並建立 LINE ChatBot：請先至 LINE 官方網站完成 ChatBot 建立與串接相關設定，詳細操作請參考 LINE 官方網站。
 2. 啟用 LINE ChatBot 功能：回到本平台，勾選「□ 啟用 LINE ChatBot 功能」，即可啟用相關功能設定。
-3. 填寫 LINE 粉絲專頁「Accesas Token」、「Verify Token」：將 LINE 開發平台提供的「Access Token」、「Verify Token」填入對應欄位。設定完成後，即可開啟自動回覆聊天功能。
+3. 填寫 LINE 粉絲專頁「Access Token」、「Verify Token」：將 LINE 開發平台提供的「Access Token」、「Verify Token」填入對應欄位。設定完成後，即可開啟自動回覆聊天功能。
 4. 更新「Access Token」或「Verify Token」：勾選「□ 更新 Access Token」或「□ 更新 Verify Token」，即可更新相關資訊。
 
-![fb LINE bot](./img/app-management-03.png)
+![建立fb LINE bot](./img/app-management-03.png)
 ![fb](./img/app-management-04.png)
 ![LINE](./img/app-management-05.png)
+![更新 fb LINE Accesas verify](./img/app-management-10.png)
 
 ### 統計數據
 

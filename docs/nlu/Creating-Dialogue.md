@@ -5,7 +5,7 @@ sidebar_position: 4
 
 # 如何訓練對話
 
-在開始訓練任務型 APP 之前。請先於本地電腦建立訓練用 Excel。相關檔案建立說明請參考"如何建立訓練 Excel？"章節。
+在開始訓練任務型 APP 之前。請先於本地電腦建立訓練用 Excel。相關檔案建立說明請參考"[如何建立訓練 Excel？](http://localhost:7000/kingly_frontend_doc/docs/nlu/training-excel-file-setup)"章節。
 
 ## 操作說明
 

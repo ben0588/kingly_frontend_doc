@@ -3,9 +3,9 @@ title: 建置
 sidebar_position: 1
 ---
 
-# 建置 - 意圖/實體/特殊詞
+# 建置 - 意圖/特殊詞
 
-使用者可以透過本功能進行任務 APP 訓練作業，包含意圖(Intent)、實體(Entity)、特殊詞(Special)的訓練等。此功能旨在協助使用者建立並優化任務 APP 的語言模型，以提升系統對語句的辨識與回應準確度。
+使用者可以透過本功能進行任務 APP 訓練作業，包含意圖(Intent)、特殊詞(Special)的訓練等。此功能旨在協助使用者建立並優化任務 APP 的語言模型，以提升系統對語句的辨識與回應準確度。
 
 ## 操作說明
 
@@ -18,11 +18,6 @@ sidebar_position: 1
 5. **Intent list**：可查看所有已建立 Intent 及其各自的語句數量。
 
 ![意圖](./img/build-01.png)
-
-### 實體 Entity (開發中)
-
-1. **Entity 數量**：顯示目前已建立 Entity 數量。
-2. **Entity list**：查看各個 Entity 對應的語句數量。
 
 ### 特殊詞 Special
 

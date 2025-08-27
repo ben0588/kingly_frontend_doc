@@ -1,12 +1,13 @@
 # 文件說明
 
-本文件提供美容百科網站的入門指南，包括註冊、瀏覽文章和使用搜尋功能的基本步驟，與各類操作說明、注意事項
+本文件提供前端的入門指南，包括註冊、瀏覽文章和使用搜尋功能的基本步驟，與各類操作說明、注意事項
 
 ## 連結說明
 
 - [美容百科前端網站連結](https://beauty.kinglyrobot.com/)
-- [美容百科前端文件連結：GitHub Pages 版本](https://ben0588.github.io/kingly_beauty_wiki_frontend_doc/)
-- [美容百科前端文件連結：Vercel 版本](https://kingly-beauty-wiki-frontend-doc-gyrm-7xfyqfesz.vercel.app/)
+- [運動百科前端網站連結](https://sport.kinglyrobot.com/)
+- [前端操作說明文件連結：GitHub Pages 版本](https://ben0588.github.io/kingly_frontend_doc/)
+- [前端操作說明文件連結：Vercel 版本](https://kingly-frontend-doc.vercel.app/)
 
 ## 使用技術
 

@@ -138,7 +138,6 @@ const config = {
             position: "right",
           },
         ],
-        metadata: [{ name: "robots", content: "noindex,nofollow" }],
       },
       docs: {
         sidebar: {

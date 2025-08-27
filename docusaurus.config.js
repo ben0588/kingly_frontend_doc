@@ -168,15 +168,19 @@ const config = {
             title: "相關文件連結",
             items: [
               {
-                label: "美容百科前端網站說明",
-                to: "/docs/intro",
+                label: "前端說明文件-Vercel",
+                to: "https://kingly-frontend-doc.vercel.app/",
               },
               {
-                label: "後台管理系統教學 ( Vercel )",
+                label: "前端說明文件-GitHub",
+                to: "https://ben0588.github.io/kingly_frontend_doc/",
+              },
+              {
+                label: "後台管理系統教學-Vercel",
                 to: "https://kingly-backend-doc.vercel.app/",
               },
               {
-                label: "後台管理系統教學 ( GitHub-Pages )",
+                label: "後台管理系統教學-GitHub",
                 to: "https://mestochang.github.io/kingly_backend_doc/",
               },
             ],

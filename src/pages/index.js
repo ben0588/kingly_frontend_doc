@@ -3,7 +3,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
-
+import Head from "@docusaurus/Head";
 import Heading from "@theme/Heading";
 import styles from "./index.module.css";
 
@@ -41,6 +41,9 @@ export default function Home() {
       title={`首頁`}
       description="Description will go into a meta tag in <head />"
     >
+      <Head>
+        <meta name="robots" content="noindex,nofollow" />
+      </Head>
       <HomepageHeader />
       <main>
         <HomepageFeatures />

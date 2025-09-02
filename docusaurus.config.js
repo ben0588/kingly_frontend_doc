@@ -20,7 +20,7 @@ const config = {
     ? // ? "https://kingly-frontend-doc-gyrm.vercel.app/"
       "https://kingly-frontend-doc.vercel.app/"
     : "https://kingly_frontend_doc.github.io",
-  baseUrl: "/kingly_frontend_doc/",
+  baseUrl: isVercel ? "/" : "/kingly_frontend_doc/",
   organizationName: "kingly",
   projectName: "kingly_frontend_doc",
   // 設定當前連接 vercel 還是 github page 設定 end

@@ -1,0 +1,11 @@
+{
+  "buildCommand": "yarn build",
+  "outputDirectory": "build",
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/kingly_frontend_doc/",
+      "permanent": false
+    }
+  ]
+}

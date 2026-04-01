@@ -5,6 +5,9 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import { themes as prismThemes } from "prism-react-renderer";
+
+// 新增騰訊雲環境判斷
+const isTencent = process.env.TENCENT === "1" || process.env.TENCENT === "true";
 // 判斷當前環境是否是 vercel 還是 github pages
 const isVercel = process.env.VERCEL === "1" || process.env.VERCEL === "true";
 
@@ -16,11 +19,19 @@ const config = {
   favicon: "img/favicon.ico",
 
   // 設定當前連接 vercel 還是 github page 設定 start
-  url: isVercel
-    ? // ? "https://kingly-frontend-doc-gyrm.vercel.app/"
-      "https://kingly-frontend-doc.vercel.app/"
-    : "https://kingly_frontend_doc.github.io",
-  baseUrl: isVercel ? "/" : "/kingly_frontend_doc/",
+  // url: isVercel
+  //   ? // ? "https://kingly-frontend-doc-gyrm.vercel.app/"
+  //     "https://kingly-frontend-doc.vercel.app/"
+  //   : "https://kingly_frontend_doc.github.io",
+  // baseUrl: isVercel ? "/" : "/kingly_frontend_doc/",
+
+  url: isTencent
+    ? "kingly-frontend-doc.zh-cn.edgeone.cool" // 你的騰訊雲自定義域名
+    : isVercel
+      ? "https://kingly-frontend-doc.vercel.app/"
+      : "https://kingly_frontend_doc.github.io",
+  // 如果部署在騰訊雲 COS 的根目錄，baseUrl 就是 "/"
+  baseUrl: isVercel || isTencent ? "/" : "/kingly_frontend_doc/",
   organizationName: "kingly",
   projectName: "kingly_frontend_doc",
   // 設定當前連接 vercel 還是 github page 設定 end

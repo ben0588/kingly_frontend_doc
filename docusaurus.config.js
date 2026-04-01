@@ -34,7 +34,7 @@ const config = {
     ? "https://kingly-frontend-doc.vercel.app/"
     : isGithubActions
       ? "https://kingly_frontend_doc.github.io"
-      : "kingly-frontend-doc.zh-cn.edgeone.cool",
+      : "https://kingly-frontend-doc.zh-cn.edgeone.cool",
   // 只有 GitHub Pages 需要子路徑，其餘（Vercel, 騰訊雲, 本地開發）通常都是 "/"
   baseUrl: isGithubActions ? "/kingly_frontend_doc/" : "/",
   organizationName: "kingly",
@@ -233,6 +233,10 @@ const config = {
       {
         hashed: true,
         language: ["en", "zh"], // zh 等於支持 zh-Cn 與 zh-Hant (簡/繁)
+        // 以下新增是因為部屬騰訊雲的時候出現 node.js 版本過新警告，嘗試新增後測試是否有正常
+        indexDocs: true,
+        indexBlog: true,
+        docsRouteBasePath: "/docs",
       },
     ],
   ],
